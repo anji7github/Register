@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>REGISTER</legend>
+        <form action="">
+        <table>
+            <tr>
+                <td><label for="name">NAME:</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">GENDER:</label></td>
+                <td><input type="radio" name="gender" id="gender">MALE</td>
+                <td><input type="radio" name="gender" id="gender">FEMALE</td>
+
+            </tr>
+            <tr>
+                <td><label for="">STATE:</label></td>
+                <td><input list="state">
+                <datalist id="state">
+                    <option value="TS">TS</option>
+                    <option value="AP">AP</option>
+                    <option value="TN">TN</option>
+                    <option value="KA">KA</option>
+                    <option value="KL">KL</option>
+
+                </datalist></td>
+            </tr>
+
+            <tr>
+            <td><label for="hobbies">HOBBIES:</label></td>
+                <td><input type="checkbox" name="hobbies"id="hobbies">Reading
+                <input type="checkbox" name="hobbies" id="hobbies">Singing
+                <input type="checkbox" name="hobbies"id="hobbies">PALYING
+            </td>
+            </tr>
+
+            <tr>
+                <td><input type="Submit" name="submit" id="reset">
+                <input type="Reset" name="reset" id="reset">
+            </td>
+            </tr>
+        </table>
+    </form>
+    </fieldset>
+    <BR>
+        <table  border="5px" cellpadding="20px" cellspacing="40px">
+            <tr>
+                <td colspan="2">Anji</td>
+                <td>sravan</td>
+                <td rowspan="2">shiva</td>
+            </tr>
+            <tr>
+                 
+                <td>shiva</td>
+                <td>victor</td>
+                <td>Nanda</td>
+            </tr>
+        </table>
+</body>
+</html>
